@@ -1,0 +1,33 @@
+//--------------------------------------------------HUD VICE CITY SLUS_209.46 AMERICANA 1.09 MATEUS WJD--------------------------------------------------//
+
+patch=0,EE,202ABA40,extended,24050250 //Weapon Icon Pos X
+patch=0,EE,202AB3F8,extended,3C024413 //clock pos x (float)
+patch=0,EE,20663BCC,extended,41944433 //clock pos y dword
+patch=0,EE,202AB390,extended,24040001 //clock edge
+
+patch=0,EE,202AB9B8,extended,3C024413 //Money pos x 
+patch=0,EE,20663BE8,extended,42400000 //Money pos y dword
+patch=0,EE,202AB948,extended,24040001 //money edge
+
+patch=0,EE,202AB51C,extended,23e51f80  // armour pos x (int)
+patch=0,EE,202AB4B4,extended,24099eb5  // life pos x init point(int)
+
+patch=0,EE,20663BD8,extended,43eb0000  // armour pos y
+patch=0,EE,20663BD0,extended,43eb0000 // life pos y
+
+patch=0,EE,202ABA90,extended,24050268 //Ammo X Pos
+patch=0,EE,202AA270,extended,24060007 //Set ammo white color
+patch=0,EE,202ABA94,extended,24060045 //Ammo Y Pos
+
+patch=0,EE,202AA398,extended,2403024d //wanted pos X (int) 
+patch=0,EE,20663C08,extended,42b20000 //wanted pos y (float)
+
+patch=0,EE,20663BE0,extended,43d50000 //breath pos y (float) dword
+patch=0,EE,202AB6B0,extended,24050200 //breath pos x (int)
+
+[dinheiro cor]
+patch=0,EE,002AB808,word,2406006f
+
+patch=0,EE,202AA4C4,extended,24060004 //Set Wanted Color
+
+patch=0,EE,202A99FC,extended,3C024316
